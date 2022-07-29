@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parallax{
+    height: 100vh;
+    /* width: 100vw; */
+    background: url(images/nikolas-noonan-fQM8cbGY6iQ-unsplash.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    animation: animate 30s ease-in-out infinite;
+}
+@keyframes animate {
+    0%,100%{
+        background: url(1_5SFQ7HYfqWtWLpMciBkrUA.jpeg) no-repeat ;
+        background-attachment: fixed;
+        background-position:center;
+        background-size:cover
+    }
+    25%{
+        background: url(istockphoto-1257951336-170667a.jpg) no-repeat ;
+        background-attachment: fixed;
+        background-position:center;
+        background-size:cover
+    }
+    50%{
+        background: url(Ominous-cloudy-sky-business-climate-photo-Leah-Sawyer-e1367241044108.jpg) no-repeat ;
+        background-attachment: fixed;
+        background-position:center;
+        background-size:cover
+    }
+    75%{
+        background: url(photo_verybig_201982.jpg) no-repeat ;
+        background-attachment: fixed;
+        background-position:center;
+        background-size:cover
+    }
+}
